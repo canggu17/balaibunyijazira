@@ -1,0 +1,413 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   The Owner's
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+ </head>
+ <body class="bg-white text-black font-mono">
+  <div class="container mx-auto p-4">
+    <header class="flex flex-col md:flex-row justify-between items-center mb-4">
+      <!-- Logo -->
+      <div class="flex justify-center items-center mb-2 md:mb-0">
+        <a href="index.html" class="flex justify-center items-center">
+          <img 
+            alt="The owner's logo" 
+            src="logoi.png" 
+            class="w-40 h-auto md:w-28 lg:w-36" />
+        </a>
+      </div>
+      
+
+      <!-- Navigation -->
+      <div class="flex items-center space-x-2 md:space-x-4">
+        <a class="text-black text-sm md:text-base" href="magazine.html">Magazine</a>
+        <a class="text-black text-sm md:text-base" href="#">Store</a>
+        <a class="text-black text-sm md:text-base" href="#">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <img 
+          alt="Bird image" 
+          src="https://storage.googleapis.com/a1aa/image/g985w8LZt4LtAV6aEePiSGl4Hfwcxp7ZYBfi0PD0HbR5tYfPB.jpg" 
+          class="w-8 h-8" />
+        <span class="bg-yellow-300 text-sm md:text-base px-2 py-1">
+          New here?
+        </span>
+      </div>
+    </header>
+
+   <nav class="flex flex-wrap justify-center mb-8 space-x-2">
+    <a href="editorial.html" class="border border-black px-4 py-2 inline-block text-center">
+      Editorial
+    </a>
+    
+    
+    <div class="relative inline-block">
+        <!-- Button -->
+        <button id="dropdownButton" onclick="toggleDropdown()" class="border border-black px-4 py-2 bg-white hover:bg-gray-100">
+          Enterprenuer Scene
+        </button>
+      
+        <!-- Dropdown menu -->
+        <div id="dropdownMenu" class="absolute right-0 mt-2 w-48 bg-white border border-gray-200 rounded shadow-lg hidden">
+          <a href="owner.html" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Owner Stories</a>
+          <a href="money.html" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Money Matters</a>
+          <a href="funding.html" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Funding Advice</a>
+          <a href="technology.html" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Technology</a>
+          <a href="market.html" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Market Affairs</a>
+        </div>
+      </div>
+      
+      <a href="art.html" class="border border-black px-4 py-2 inline-block text-center">
+        Art&Design
+      </a>
+      <a href="music.html" class="border border-black px-4 py-2 inline-block text-center">
+        Music&Film
+      </a>
+      <a href="fashion.html" class="border border-black px-4 py-2 inline-block text-center">
+        Fashion&Sports
+      </a>
+      <a href="culinary.html" class="border border-black px-4 py-2 inline-block text-center">
+        Culinary
+      </a>
+      <a href="climatechange.html" class="border border-black px-4 py-2 inline-block text-center">
+        Climate Change
+      </a>
+   </nav>
+   <!-- Profile Section -->
+   <div class="bg-blue-900 text-white p-4 mb-4">
+    <h1 class="text-2xl">
+     Profile
+    </h1>
+    <div class="flex items-center mt-4">
+     <img alt="Profile picture of Brad Callahan" class="w-24 h-24 rounded-full mr-4" height="100" src="https://storage.googleapis.com/a1aa/image/NPnNHo5ZzHp1INnnffus5EDdiZY3F6r4qZreFri0mKmeq6efE.jpg" width="100"/>
+     <div>
+      <h2 class="text-xl">
+       Agussalim Rasyid
+      </h2>
+      <p>
+       Editor In Chief
+      </p>
+     </div>
+    </div>
+    <p class="mt-4">
+     Brad Callahan is a fashion designer based in NYC. He founded his label, BCalla, in 2011.
+    </p>
+   </div>
+   <!-- Conversation Section -->
+   <div class="bg-yellow-200 p-4 mb-4">
+    <h1 class="text-2xl text-blue-900">
+     Conversation
+    </h1>
+    <h2 class="text-3xl mt-4">
+     Agussalim Rasyid on the perils of practicality
+    </h2>
+    <div class="mt-4">
+     <p class="text-sm">
+      <span class="underline">
+       Fashion & sports
+      </span>
+      ,
+      <span class="underline">
+       Art & Design
+      </span>
+      ,
+      <span class="underline">
+       Climate Change
+      </span>
+      <br/>
+      <span class="underline">
+       Editorial
+      </span>
+      <br/>
+      <span class="underline">
+       Cullinary
+      </span>
+      a conversation with T. Cole Rachel
+      <br/>
+      <span class="underline">
+       Tuesday, July 10, 2017
+      </span>
+      <br/>
+      <span class="underline">
+       Highlights on
+      </span>
+     </p>
+     <div class="flex space-x-2 mt-2">
+      <i class="fab fa-facebook-f">
+      </i>
+      <i class="fab fa-twitter">
+      </i>
+      <i class="fab fa-instagram">
+      </i>
+     </div>
+    </div>
+   </div>
+   <!-- Interview Content -->
+   <div class="bg-white p-4 mb-4">
+    <p class="font-bold">
+     Your work is what most people might describe as highly unconventional. Do you ever feel the pressure to make things that are more wearable, less crazy?
+    </p>
+    <p>
+     No. [Laughs] I've found that most people don't want to dress me. The first thing I ever made, I was in my first semester at Parsons. We had to spend $100 on a Converse base and re-make something really simple and straightforward. I ended up doing this crazy stuff and made this dress. This girl came up to me and said, "I really like that dress. I want you to design my tour." It was a really crazy email to get.
+    </p>
+    <img alt="A stylized, colorful photo of two people in elaborate costumes and makeup." class="my-4" height="400" src="https://storage.googleapis.com/a1aa/image/zmJ5YyvzafVFPi8EEkDVS1lZfeQf5dOCLech0j0viLmpV19fE.jpg" width="600"/>
+    <p class="font-bold">
+     How much does something like that help a designer?
+    </p>
+    <p>
+     People don't realize to what degree pop stars' image and identity is really created by stylists. As soon as you get on that radar a lot of other stuff starts to happen. I got into magazines, other people started wearing me, things really got rolling after that.
+    </p>
+    <p>
+     I know this is a question you get asked a lot: you design clothes, but what informs your aesthetic? Where does your particular sense of style come from?
+    </p>
+    <p>
+     Comic books. A lot of comic books. My brother had this really comic book, particularly female-focused comic book run from the '40s. He actually gave me his books to look through and that was a huge part of why my work became so influenced by comics. Also, the fact that my mom was a big proponent of fashion. She was a big part of the '70s, which is sort of obvious if you look at the clothes I make. The comic book and fantasy stuff, which is also a big part of the '70s, has been a huge influence on my work. And then I got into drag. I got into the drag community in New York and that was a huge part of my work. I was really inspired by the queens and how they were able to take something and make it their own. I think that was a huge part of my work.
+    </p>
+    <p class="font-bold">
+     Paris is Burning in particular left a big impression on me because it represented the idea that anyone can be a star. It's all about self-creation and shaping your own identity in whatever way you wanted to. I really grabbed onto that idea and ran with it. When one of those kids who came to New York from the Midwest with this vision of what it could be and they just made it happen. It was one of the first times I got to see and be around people who were in the industry. It's all about supporting and just lifting it up and wanting to be a part of their process and their story.
+    </p>
+    <p>
+     Fashion has a weird identity in our culture. It's a very easy thing to parody, but most people have no idea the amount of work involved in being a designer or really understanding how much work or artistry is involved in trying to launch your own line. Fashion itself can say a lot about the culture at any given time.
+    </p>
+    <p>
+     Fashion is not really about the subjects. It's really about the subjects and not really about the subjects that people tend to give it credit for. That's the reason why it gets so complicated, especially when you're thinking about context. When I think about that stuff a lot, I do.
+    </p>
+   </div>
+
+   <!-- Subscription Form Section -->
+<div class="bg-blue-900 text-white p-6 mb-6 rounded-lg shadow-lg">
+  <h1 class="text-3xl font-bold mb-4">
+    Stay Inspired with Exclusive Insights!
+  </h1>
+  <ul class="mt-4 space-y-3 text-lg">
+    <li>
+      <span class="font-semibold">Brad Callahan recommends:</span>
+    </li>
+    <li>
+      \u2022 <em>Literally any of the Galliano for Dior couture shows, 1996-2011</em>
+    </li>
+    <li>
+      \u2022 <em>The Legend of Zelda: Breath of the Wild</em> is required viewing for anyone in fashion
+    </li>
+    <li>
+      \u2022 Kristin Murphy's full concert in Brussels (but really anything Kristin Murphy)
+    </li>
+    <li>
+      \u2022 Any anime or manga by Clamp
+    </li>
+    <li>
+      \u2022 Every Eyes album (especially <em>Adolescence</em>)
+    </li>
+  </ul>
+  <div class="mt-6 bg-yellow-500 text-black p-4 rounded-md">
+    <h2 class="text-xl font-bold mb-2">Want More?</h2>
+    <p class="text-base mb-4">
+      Unlock deeper insights and curated recommendations just like these. Subscribe to our newsletter and get exclusive access to more inspiring content!
+    </p>
+    <form id="subscription-form" class="flex items-center space-x-2">
+      <input 
+        type="email" 
+        placeholder="Enter your email" 
+        class="p-2 w-full rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600" 
+        required 
+      />
+      <button 
+        type="submit" 
+        class="bg-black text-white px-4 py-2 rounded-md hover:bg-gray-800 transition"
+      >
+        Subscribe
+      </button>
+    </form>
+  </div>
+</div>
+
+<!-- Pop-Up Section -->
+<div id="popup" class="hidden fixed inset-0 bg-gray-800 bg-opacity-75 flex justify-center items-center z-50">
+  <div class="bg-white text-black p-6 rounded-lg shadow-lg w-96">
+    <h2 class="text-2xl font-bold mb-4">Choose Your Plan</h2>
+    <p class="mb-4">Get access to premium content and exclusive insights!</p>
+    <div class="space-y-4">
+      <!-- Monthly Plan -->
+      <div class="border p-4 rounded-md hover:shadow-md transition">
+        <h3 class="text-lg font-semibold mb-2">Monthly Subscription</h3>
+        <p class="text-sm text-gray-600">Only Rp. 17.900/month</p>
+        <ul class="text-sm mt-2 space-y-1">
+          <li>✔ Weekly curated insights</li>
+          <li>✔ Priority access to new articles</li>
+          <li>✔ Exclusive members-only newsletter</li>
+        </ul>
+        <button class="bg-blue-900 text-white mt-4 w-full py-2 rounded-md hover:bg-blue-700 transition">
+          Subscribe Now
+        </button>
+      </div>
+      <!-- Annual Plan -->
+      <div class="border p-4 rounded-md hover:shadow-md transition">
+        <h3 class="text-lg font-semibold mb-2">Annual Subscription</h3>
+        <p class="text-sm text-gray-600">Only Rp. 99.000/year</p>
+        <ul class="text-sm mt-2 space-y-1">
+          <li>✔ All monthly benefits</li>
+          <li>✔ Two months free</li>
+          <li>✔ Early access to exclusive events</li>
+          <li>✔ Premium customer support</li>
+        </ul>
+        <button class="bg-yellow-500 text-black mt-4 w-full py-2 rounded-md hover:bg-yellow-600 transition">
+          Subscribe Now
+        </button>
+      </div>
+    </div>
+    <button id="close-popup" class="mt-6 w-full bg-gray-200 text-gray-700 py-2 rounded-md hover:bg-gray-300 transition">
+      No, thanks
+    </button>
+  </div>
+</div>
+
+<!-- Payment Options Pop-Up -->
+<div id="payment-popup" class="hidden fixed inset-0 bg-gray-800 bg-opacity-75 flex justify-center items-center z-50">
+  <div class="bg-white text-black p-6 rounded-lg shadow-lg w-96">
+    <h2 class="text-2xl font-bold mb-4">Select Payment Method</h2>
+    <p class="mb-4">Complete your subscription by choosing your preferred payment method.</p>
+    <div class="space-y-4">
+      <!-- Payment Option: Credit/Debit Card -->
+      <div class="border p-4 rounded-md hover:shadow-md transition">
+        <h3 class="text-lg font-semibold mb-2">Credit/Debit Card</h3>
+        <p class="text-sm text-gray-600">Pay securely using your card.</p>
+        <button class="bg-blue-900 text-white mt-4 w-full py-2 rounded-md hover:bg-blue-700 transition">
+          Pay with Card
+        </button>
+      </div>
+      <!-- Payment Option: Bank Transfer -->
+      <div class="border p-4 rounded-md hover:shadow-md transition">
+        <h3 class="text-lg font-semibold mb-2">Bank Transfer</h3>
+        <p class="text-sm text-gray-600">Transfer directly from your bank account.</p>
+        <button class="bg-yellow-500 text-black mt-4 w-full py-2 rounded-md hover:bg-yellow-600 transition">
+          Pay with Bank Transfer
+        </button>
+      </div>
+      <!-- Payment Option: E-Wallet -->
+      <div class="border p-4 rounded-md hover:shadow-md transition">
+        <h3 class="text-lg font-semibold mb-2">E-Wallet</h3>
+        <p class="text-sm text-gray-600">Use your favorite e-wallet for a quick checkout.</p>
+        <button class="bg-green-600 text-white mt-4 w-full py-2 rounded-md hover:bg-green-700 transition">
+          Pay with E-Wallet
+        </button>
+      </div>
+    </div>
+    <button id="close-payment-popup" class="mt-6 w-full bg-gray-200 text-gray-700 py-2 rounded-md hover:bg-gray-300 transition">
+      Cancel
+    </button>
+  </div>
+</div>
+
+   <!-- Navigation Section -->
+   <div class="flex justify-between items-center bg-gray-200 p-4">
+    <a class="flex items-center space-x-2" href="#">
+     <i class="fas fa-arrow-left">
+     </i>
+     <span>
+      Previous
+     </span>
+    </a>
+    <a class="flex items-center space-x-2" href="#">
+     <span>
+      Next
+     </span>
+     <i class="fas fa-arrow-right">
+     </i>
+    </a>
+    <a class="flex items-center space-x-2" href="#">
+     <i class="fas fa-comment">
+     </i>
+     <span>
+      Discuss
+     </span>
+    </a>
+   </div>
+   <!-- Footer Section -->
+   <footer class="p-4 text-center text-sm border-t border-gray-300">
+    <p> 
+      Independent Creative Media is an ad-free, regularly published newsletter for all things important, T.OWN. See also::<a class="underline" href="#">
+Terms </a>
+ <a class="underline" href="#">Privacy Policy</a>
+    </p>
+<div class="flex justify-center space-x-4 mt-2">
+<a href="#">
+<i class="fab fa-youtube">
+</i>
+</a>
+<a href="#">
+ <i class="fab fa-Instagram">
+ </i>
+ </a>
+<a href="#">
+ <i class="fab fa-tiktok">
+ </i>
+</a>
+<a href="#">
+    <i class="fab fa-Linkedin">
+    </i>
+   </a>
+   <a href="#">
+    <i class="fab fa-twitter">
+    </i>
+   </a>
+<a href="#">
+ <i class="fas fa-cog">
+ </i>
+ </a>
+ </div>
+  </footer>
+  <script>
+    // Function to toggle dropdown visibility
+    function toggleDropdown() {
+      const menu = document.getElementById("dropdownMenu");
+      menu.classList.toggle("hidden");
+    }
+  
+    // Close dropdown when clicking outside
+    document.addEventListener("click", (event) => {
+      const button = document.getElementById("dropdownButton");
+      const menu = document.getElementById("dropdownMenu");
+  
+      if (!button.contains(event.target) && !menu.contains(event.target)) {
+        menu.classList.add("hidden");
+      }
+    });
+
+    // Script to handle pop-up display
+  const form = document.getElementById('subscription-form');
+  const popup = document.getElementById('popup');
+  const closePopup = document.getElementById('close-popup');
+
+  form.addEventListener('submit', (e) => {
+    e.preventDefault(); // Prevent form submission
+    popup.classList.remove('hidden');
+  });
+
+  closePopup.addEventListener('click', () => {
+    popup.classList.add('hidden');
+  });
+
+  // Script to handle subscription and payment process
+  const subscribeButtons = document.querySelectorAll('.bg-blue-900, .bg-yellow-500');
+  const paymentPopup = document.getElementById('payment-popup');
+  const closePaymentPopup = document.getElementById('close-payment-popup');
+
+  // Show payment options pop-up
+  subscribeButtons.forEach((button) => {
+    button.addEventListener('click', () => {
+      paymentPopup.classList.remove('hidden');
+    });
+  });
+
+  // Close payment options pop-up
+  closePaymentPopup.addEventListener('click', () => {
+    paymentPopup.classList.add('hidden');
+  });
+  </script>
+ </body>
+</html>
